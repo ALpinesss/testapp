@@ -1,0 +1,28 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-09-06 14:11:41.521950",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Booking",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h2>New Booking has arrived</h2>\n\n<p><a href=\"http://127.0.0.1:8000/app/ride-booking\">Click here to view.</a></p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-09-06 14:17:49.853054",
+ "modified_by": "Administrator",
+ "module": "Testapp",
+ "name": "New Booking Arrived",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{doc.customer_name}} booked a vehicle"
+}
